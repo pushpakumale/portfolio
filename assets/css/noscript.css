@@ -1,0 +1,25 @@
+/*
+	noscript dot css
+*/
+
+/* Wrapper */
+
+	#wrapper {
+		opacity: 1 !important;
+	}
+
+/* Overlay */
+
+	#overlay {
+		opacity: 1 !important;
+	}
+
+/* Header */
+
+	#header {
+		opacity: 1 !important;
+	}
+
+		#header nav li {
+			opacity: 1 !important;
+		}
