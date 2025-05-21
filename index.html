@@ -33,14 +33,34 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-					    <p>"Invent the future." – Nikola Tesla</p>
+					    <p id="daily-quote"></p>
 					</footer>
 			</div>
 		</div>
 		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			// List of quotes
+			    const quotes = [
+			        '"Invent the future." – Nikola Tesla',
+			        '"Stay hungry, stay foolish." – Steve Jobs',
+			        '"Code is like humor. When you have to explain it, it’s bad." – Cory House',
+			        '"Programs must be written for people to read." – Harold Abelson',
+			        '"Talk is cheap. Show me the code." – Linus Torvalds',
+			        '"Simplicity is the soul of efficiency." – Austin Freeman',
+			        '"First, solve the problem. Then, write the code." – John Johnson'
+			    ];
+			
+			    // Get current day index (same quote each day)
+			    const today = new Date();
+			    const dayIndex = today.getFullYear() * 1000 + today.getMonth() * 100 + today.getDate(); // ensures unique index
+			    const quoteIndex = dayIndex % quotes.length;
+			
+			    // Insert quote
+			    document.getElementById("daily-quote").textContent = quotes[quoteIndex];
+			
+			    // Other preload/scroll scripts
+			    window.onload = function() { document.body.classList.remove('is-preload'); }
+			    window.ontouchmove = function() { return false; }
+			    window.onorientationchange = function() { document.body.scrollTop = 0; }
 		</script>
 	</body>
 </html>
