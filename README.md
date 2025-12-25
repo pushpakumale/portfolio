@@ -14,7 +14,6 @@ This portfolio website serves as my digital presence, featuring my professional 
 - **Instagram**: [Pushpak Umale](https://www.instagram.com/itstanmay_ig)
 - **Email**: [Pushpak Umale](mailto:umalepushpak@gmail.com)
 
-
 ## ⚙️ Technologies Used
 - **HTML** / **CSS** for structure and styling
 - **Font Awesome** for icons
