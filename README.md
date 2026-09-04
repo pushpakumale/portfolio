@@ -12,7 +12,7 @@ This portfolio website serves as my digital presence, featuring my professional 
 - **LinkedIn**: [Pushpak Umale](https://www.linkedin.com/in/pushpakumale-152530)
 - **GitHub**: [Pushpak Umale](https://github.com/pushpakumale)
 - **Instagram**: [Pushpak Umale](https://www.instagram.com/itstanmay_ig)
-- **Email**: [Pushpak Umale](mailto:umalepushpak@gmail.com)
+- **Email**: [Pushpak Umale](mailto:pushpakumale.careerinfo@gmail.com)
 
 ## ⚙️ Technologies Used
 - **HTML** / **CSS** for structure and styling
